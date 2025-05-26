@@ -1,10 +1,9 @@
 //
-// Created by Sira Gonzalez-Madroño on 26/5/25.
+// Created by Sira González-Madroño on 26/5/25.
 //
 // Simulación secuencial de la difusión de calor en una placa metálica 2D.
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 #include <omp.h>
 #include "utilidades.h"

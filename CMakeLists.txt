@@ -8,6 +8,7 @@ add_executable(proyectoFinal
         main.c
         utilidades.c
         difusion_secuencial.c
+        difusion_paralela.c
 )
 
 if(APPLE)

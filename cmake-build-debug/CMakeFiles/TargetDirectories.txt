@@ -1,0 +1,3 @@
+/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles/proyectoFinal.dir
+/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles/rebuild_cache.dir

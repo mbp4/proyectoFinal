@@ -21,6 +21,13 @@ int main(int argc, char* argv[]) {
     printf("Ejecutando simulación paralela con OpenMP...\n");
     difusion_paralela(N, umbral, max_iter);
 
+    // Pruebas adicionales pedidas
+    printf("\nPrueba 1: (2 * N, umbral, 2 * iteraciones)\n");
+    difusion_paralela(2 * N, umbral, 2 * max_iter);
+
+    printf("\nPrueba 2: (N^2, 2 * umbral, 2 * iteraciones)\n");
+    difusion_paralela(N * N, 2 * umbral, 2 * max_iter);
+
     return 0;
 }
 

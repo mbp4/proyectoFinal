@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/siragonzalez-madrono/Desktop/proyectoFinal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default
 
 # Include any dependencies generated for this target.
 include CMakeFiles/proyectoFinal.dir/depend.make
@@ -72,7 +72,7 @@ include CMakeFiles/proyectoFinal.dir/flags.make
 CMakeFiles/proyectoFinal.dir/main.c.o: CMakeFiles/proyectoFinal.dir/flags.make
 CMakeFiles/proyectoFinal.dir/main.c.o: /Users/siragonzalez-madrono/Desktop/proyectoFinal/main.c
 CMakeFiles/proyectoFinal.dir/main.c.o: CMakeFiles/proyectoFinal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/proyectoFinal.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/proyectoFinal.dir/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proyectoFinal.dir/main.c.o -MF CMakeFiles/proyectoFinal.dir/main.c.o.d -o CMakeFiles/proyectoFinal.dir/main.c.o -c /Users/siragonzalez-madrono/Desktop/proyectoFinal/main.c
 
 CMakeFiles/proyectoFinal.dir/main.c.i: cmake_force
@@ -86,7 +86,7 @@ CMakeFiles/proyectoFinal.dir/main.c.s: cmake_force
 CMakeFiles/proyectoFinal.dir/utilidades.c.o: CMakeFiles/proyectoFinal.dir/flags.make
 CMakeFiles/proyectoFinal.dir/utilidades.c.o: /Users/siragonzalez-madrono/Desktop/proyectoFinal/utilidades.c
 CMakeFiles/proyectoFinal.dir/utilidades.c.o: CMakeFiles/proyectoFinal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/proyectoFinal.dir/utilidades.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/proyectoFinal.dir/utilidades.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proyectoFinal.dir/utilidades.c.o -MF CMakeFiles/proyectoFinal.dir/utilidades.c.o.d -o CMakeFiles/proyectoFinal.dir/utilidades.c.o -c /Users/siragonzalez-madrono/Desktop/proyectoFinal/utilidades.c
 
 CMakeFiles/proyectoFinal.dir/utilidades.c.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/proyectoFinal.dir/utilidades.c.s: cmake_force
 CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o: CMakeFiles/proyectoFinal.dir/flags.make
 CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o: /Users/siragonzalez-madrono/Desktop/proyectoFinal/difusion_secuencial.c
 CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o: CMakeFiles/proyectoFinal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o -MF CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o.d -o CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o -c /Users/siragonzalez-madrono/Desktop/proyectoFinal/difusion_secuencial.c
 
 CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.s: cmake_force
 CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o: CMakeFiles/proyectoFinal.dir/flags.make
 CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o: /Users/siragonzalez-madrono/Desktop/proyectoFinal/difusion_paralela.c
 CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o: CMakeFiles/proyectoFinal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o -MF CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o.d -o CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o -c /Users/siragonzalez-madrono/Desktop/proyectoFinal/difusion_paralela.c
 
 CMakeFiles/proyectoFinal.dir/difusion_paralela.c.i: cmake_force
@@ -141,7 +141,7 @@ proyectoFinal: CMakeFiles/proyectoFinal.dir/difusion_secuencial.c.o
 proyectoFinal: CMakeFiles/proyectoFinal.dir/difusion_paralela.c.o
 proyectoFinal: CMakeFiles/proyectoFinal.dir/build.make
 proyectoFinal: CMakeFiles/proyectoFinal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable proyectoFinal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable proyectoFinal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proyectoFinal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/proyectoFinal.dir/clean:
 .PHONY : CMakeFiles/proyectoFinal.dir/clean
 
 CMakeFiles/proyectoFinal.dir/depend:
-	cd /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/siragonzalez-madrono/Desktop/proyectoFinal /Users/siragonzalez-madrono/Desktop/proyectoFinal /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles/proyectoFinal.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/siragonzalez-madrono/Desktop/proyectoFinal /Users/siragonzalez-madrono/Desktop/proyectoFinal /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles/proyectoFinal.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/proyectoFinal.dir/depend
 

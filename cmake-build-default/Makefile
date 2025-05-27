@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/siragonzalez-madrono/Desktop/proyectoFinal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/siragonzalez-madrono/Desktop/proyectoFinal/cmake-build-default/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

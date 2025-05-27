@@ -2,6 +2,7 @@
 // Created by Miriam Blanco Ponce on 26/5/25.
 //
 // Simulación Paralela de la difusión del calor en una superficie bidimensional
+
 #include <stdio.h>
 #include <math.h>
 #include <omp.h>
@@ -17,7 +18,7 @@ void difusion_paralela(int N, float umbral, int max_iter) {
     //inicializamos la matriz con los valores pedidos en el enunciado
 
     int iter = 0; //contador de iteraciones
-    float cambio_max; //guarda el máximo cambio de temperatura entre iteracciones
+    float cambio_max; //guarda el máximo cambio de temperatura entre iteraciones
     double inicio = omp_get_wtime(); //función de OpenMP para medir el tiempo que tarda la simulación
 
     do {
@@ -34,7 +35,7 @@ void difusion_paralela(int N, float umbral, int max_iter) {
             }
         }
 
-        //copia los valores calculados de "siguiente" a la "actual" para las proximas iteraciones
+        //copia los valores calculados de "siguiente" a la "actual" para las próximas iteraciones
 #pragma omp parallel for collapse(2)
         for (int i = 1; i < N - 1; i++) {
             for (int j = 1; j < N - 1; j++) {

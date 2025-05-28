@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Declaración de la función secuencial
+// Declaración de la función secuencial y paralela
 void difusion_secuencial(int N, float umbral, int max_iter);
 void difusion_paralela(int N, float umbral, int max_iter);
 
